@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #00060c; /* Fundo escuro */
+  color: #ecf0f1; /* Texto claro */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #f52e18; /* Título em vermelho */
+}
+
+#atacarBtn {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ac2307; /* Azul */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Efeito de transição */
+}
+
+#atacarBtn:hover {
+  background-color: #2980b9; /* Azul escuro ao passar o mouse */
+}
+
+#output {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #e74c3c; /* Borda vermelha */
+  background-color: #05101b; /* Fundo da área de saída */
+  border-radius: 5px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
